@@ -32,7 +32,7 @@
    ###### hash for maven3.3.9 #####
    {%- set default_source_hash = "sha1=5b4c117854921b527ab6190615f9435da730ba05" %}
 {% else %}
-   {%- set default_source_hash = default_source_url ~ '.sha1' %}
+   {%- set default_source_hash = default_source_url ~ '.sha512' %}
 {% endif %}
 
 {%- set default_alt_priority = '0' %}
